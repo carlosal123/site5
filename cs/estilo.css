@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+body {
+    background-color:rgb(68, 68, 68);
+    color: white;
+   
+}
+
+.port {
+    display: flex;
+   
+}
+
+.global {
+    display: flex;
+    border-radius: 11px;
+   
+    width: 1200px;
+    height: 707px;
+    background: black;
+}
+
+
+
+
+.bord {
+    margin: 8px;
+    background: rgb(199, 98, 81);
+    width: 269px;
+    height: 165px;
+    border-radius: 11px;
+
+
+}
+
+.bordglobal {
+    width: 60%;
+    margin: 0px 160px ;  
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+}
+
+.p1 p, h5{
+    text-align: center;
+}
+
+
+
+
+   
+
+
+
+  
