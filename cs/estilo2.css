@@ -6,8 +6,8 @@
 }
 
 body .active {
-    background: rgb(15, 14, 14);
-    color: white;
+    background: rgb(241, 239, 239);
+    color: rgb(10, 9, 9);
 }
 
 .cab {
@@ -27,6 +27,7 @@ body .active {
 label {
     padding: 10px;
 }
+
 
 i {
     padding: 5px;
@@ -49,6 +50,7 @@ input {
     background: rgb(22, 22, 22);
     border: solid 1px rgb(80, 79, 79);
     padding: 3px;
+    
 }
 
 .coluna {
@@ -64,7 +66,6 @@ input {
 .geral {
     display: flex;
 }
-
 .dk {
     cursor: pointer;
 }
