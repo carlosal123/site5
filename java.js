@@ -8,15 +8,16 @@
 // })
 
 var ativo = 0
-var dk = document.querySelector('.mode-switch')
+var dk2 = document.querySelector('.dk')
 if(ativo == 0){
-    dk.addEventListener('click', function(){
-        dk.classList.add('active')
+    dk2.addEventListener('click', function(){
+        document.documentElement.classList.toggle('dark')
+        document.querySelector('body').classList.toggle('active')
     });
     ativo = 1
 } else {
-    dk.addEventListener('click', function() {
-        dk.classList.remove('active')
+    dk2.addEventListener('click', function() {
+        dk2.classList.remove('active')
     })
     ativo = 0
 }

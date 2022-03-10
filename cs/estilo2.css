@@ -5,7 +5,7 @@
     margin: 0;
 }
 
-body .active {
+ .active, .dark {
     background: rgb(241, 239, 239);
     color: rgb(10, 9, 9);
 }
