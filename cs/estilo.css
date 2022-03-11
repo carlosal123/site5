@@ -70,6 +70,14 @@ input {
 .dk {
     cursor: pointer;
 }
+
+.oi2 {
+    cursor: pointer;
+}
+
+.oi {
+    cursor: pointer;
+}
 .esquerdo {
     width: 50%;
     margin-left: 7%;
@@ -179,7 +187,7 @@ input {
 }
 
 .quadro {
-    height: 60vh;
+    height: 99vh;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -410,7 +418,4 @@ input {
         height: auto;
     }
 
-    .s {
-        width: 40vh;
-    }
 }

@@ -5,10 +5,12 @@
     margin: 0;
 }
 
- .active, .dark {
-    background: rgb(241, 239, 239);
-    color: rgb(10, 9, 9);
+body {
+    background: rgba(211, 10, 10, 0.356);
+    color: white;
 }
+
+
 
 .cab {
     display: flex;
@@ -27,7 +29,6 @@
 label {
     padding: 10px;
 }
-
 
 i {
     padding: 5px;
@@ -50,7 +51,6 @@ input {
     background: rgb(22, 22, 22);
     border: solid 1px rgb(80, 79, 79);
     padding: 3px;
-    
 }
 
 .coluna {
@@ -66,7 +66,16 @@ input {
 .geral {
     display: flex;
 }
+
 .dk {
+    cursor: pointer;
+}
+
+.oi2 {
+    cursor: pointer;
+}
+
+.oi {
     cursor: pointer;
 }
 .esquerdo {
@@ -105,7 +114,6 @@ input {
 .pro1 {
     margin-left: 60%;
 }
-
 
 
 .dezembro {
@@ -178,7 +186,7 @@ input {
 .quadro {
     height: 99vh;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     align-items: center;
     align-content: center;
     justify-content: center;
@@ -191,7 +199,7 @@ input {
     justify-content: center;
     align-content: center;
     color: white;
-    margin: 10px;
+    margin: 2px;
 }
 
 .quadro1 {
@@ -407,7 +415,5 @@ input {
         height: auto;
     }
 
-    .s {
-        width: 40vh;
-    }
+  
 }
